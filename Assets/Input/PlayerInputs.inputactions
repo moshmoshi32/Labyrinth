@@ -1,0 +1,34 @@
+{
+    "name": "PlayerInputs",
+    "maps": [
+        {
+            "name": "PlayerTiltLabyrinth",
+            "id": "0e3ea27c-4d32-42b2-96af-545ea60d2771",
+            "actions": [
+                {
+                    "name": "TiltLabyrinth",
+                    "type": "Value",
+                    "id": "1617b791-fb63-42da-926f-0d93c6947967",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "5e1c639b-b715-435c-a955-6e1801f57225",
+                    "path": "<Mouse>/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TiltLabyrinth",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
